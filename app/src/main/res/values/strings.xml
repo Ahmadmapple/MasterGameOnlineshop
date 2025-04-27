@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">MasterGameOnlineShop</string>
+    <string name="title_name">Master Game Onlineshop</string>
+    <string name="welcome_text">Welcome to Master Game Onlineshop</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Don\'t Have an Account?</string>
+    <string name="click_here">Click Here</string>
+    <string name="failed">Password or Email is Invalid</string>
+
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="error">Confirm Password is not the same as Password</string>
+
+    <string name="welcome_img_desc">Login Image</string>
+    <string name="checkout">Checkout</string>
+
+    <string name="user_text">User</string>
+    <string name="logout">Log Out</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="user_info">User Information</string>
+    <string name="user_name">Username</string>
+
+    <string name="user_email">Email</string>
+    <string name="addcart">Add to Cart</string>
+
+    <string-array name="name_of_the_game">
+        <item>Minecraft</item>
+        <item>Grand Theft Auto V</item>
+        <item>Battlefield V</item>
+        <item>Call of Duty Black Ops 6</item>
+        <item>Palworld</item>
+        <item>Terraria</item>
+        <item>Stardew Valley</item>
+        <item>Hollow Knight</item>
+        <item>Geometry Dash</item>
+        <item>Need for Speed Heat</item>
+        <item>Grand Theft Auto IV</item>
+        <item>Elden Ring</item>
+        <item>Dark Souls Remastered</item>
+        <item>Dark Souls 2</item>
+        <item>Dark Souls 3</item>
+        <item>Five Night at Freddy</item>
+        <item>Five Night at Freddy 2</item>
+        <item>Five Night at Freddy 3</item>
+        <item>Grand Theft Auto San Andreas</item>
+        <item>God of War Ragnarok</item>
+    </string-array>
+
+    <string-array name="description_of_the_game">
+        <item>Explore and build in an endless world of blocks in Minecraft. Survive the night and unleash your creativity.</item>
+        <item>Experience the criminal underworld in Los Santos. Heists, chaos, and open-world fun await in GTA V.</item>
+        <item>Engage in epic battles across World War II environments. Stunning visuals and intense gameplay in Battlefield V.</item>
+        <item>The iconic shooter returns with high-octane action and gripping missions. Dominate the battlefield in COD Black Ops 6.</item>
+        <item>Survive a wild world filled with creatures and chaos. Tame monsters and craft your own paradise in Palworld.</item>
+        <item>Dig, build, and fight in a pixelated sandbox adventure. Terraria blends action and creativity.</item>
+        <item>Farm, fish, and make friends in a peaceful countryside setting. Stardew Valley is a relaxing life sim with charm.</item>
+        <item>Explore a haunting underground world in Hollow Knight. Precision platforming and deep lore await.</item>
+        <item>Jump, dodge, and vibe to the beat. Geometry Dash is fast-paced and unforgiving platformer fun.</item>
+        <item>Outrun the cops and customize your dream car. NFS Heat brings street racing to life.</item>
+        <item>Return to Liberty City for gritty stories and raw action. GTA IV delivers realism and depth.</item>
+        <item>Enter a vast, dangerous fantasy realm in Elden Ring. Explore, fight, and forge your destiny.</item>
+        <item>Face challenging bosses and uncover dark secrets. Dark Souls Remastered is brutal and rewarding.</item>
+        <item>Descend into a cursed world with new enemies and lore. Dark Souls 2 expands the saga with fresh challenges.</item>
+        <item>The epic finale of the trilogy. Dark Souls 3 is fast, fluid, and fearsome.</item>
+        <item>Survive the horrors of Freddy Fazbear\'s Pizza. Jumpscares and mysteries await in this horror classic.</item>
+        <item>New characters and darker secrets unfold. FNAF 2 raises the tension and terror.</item>
+        <item>The fear continues with new gameplay mechanics. FNAF 3 delves deeper into the haunted past.</item>
+        <item>Roam the streets of San Andreas. GTA SA blends story, action, and nostalgia.</item>
+        <item>Join Kratos and Atreus on a mythic journey. God of War Ragnarok is cinematic and brutal.</item>
+    </string-array>
+
+
+    <string-array name="game_images">
+        <item>minecraft_cover</item>
+        <item>grand_theft_auto_v_cover</item>
+        <item>battlefield_v_cover</item>
+        <item>call_of_duty_black_ops_6_cover</item>
+        <item>palworld_cover</item>
+        <item>terarria_cover</item>
+        <item>stardew_valley_cover</item>
+        <item>hollow_knight_cover</item>
+        <item>geometry_dash_cover</item>
+        <item>need_for_speed_heat_cover</item>
+        <item>grand_theft_auto_iv_cover</item>
+        <item>elden_ring_cover</item>
+        <item>dark_souls_remastered_cover</item>
+        <item>dark_souls_2_cover</item>
+        <item>dark_souls_3_cover</item>
+        <item>five_nights_at_freddy_cover</item>
+        <item>five_nights_at_freddy_2_cover</item>
+        <item>five_nights_at_freddy_3_cover</item>
+        <item>grand_theft_auto_san_andreas_cover</item>
+        <item>god_of_war_ragnarok_cover</item>
+    </string-array>
+
+    <string-array name="game_developer">
+        <item>Mojang</item>
+        <item>Rockstar</item>
+        <item>DICE</item>
+        <item>Treyarch and Raven Software</item>
+        <item>Pocketpair</item>
+        <item>Re-logic</item>
+        <item>ConcernedApe</item>
+        <item>Team Cherry</item>
+        <item>Robtop</item>
+        <item>Ghost Games</item>
+        <item>Rockstar</item>
+        <item>FromSoftware</item>
+        <item>FromSoftware</item>
+        <item>FromSoftware</item>
+        <item>FromSoftware</item>
+        <item>Scott Cawthon</item>
+        <item>Scott Cawthon</item>
+        <item>Scott Cawthon</item>
+        <item>Rockstar</item>
+        <item>Santa Monica Studio</item>
+    </string-array>
+
+    <string-array name="price_of_the_game">
+        <item>Rp 265.000</item>
+        <item>Rp 439.000</item>
+        <item>Rp 225.000</item>
+        <item>Rp 895.000</item>
+        <item>Rp 506.000</item>
+        <item>Rp 39.800</item>
+        <item>Rp 135.000</item>
+        <item>Rp 248.000</item>
+        <item>Rp 35.000</item>
+        <item>Rp 759.000</item>
+        <item>Rp 210.000</item>
+        <item>Rp 599.000</item>
+        <item>Rp 420.000</item>
+        <item>Rp 460.000</item>
+        <item>Rp 587.000</item>
+        <item>Rp 39.999</item>
+        <item>Rp 59.999</item>
+        <item>Rp 59.999</item>
+        <item>Rp 217.000</item>
+        <item>Rp 879.000</item>
+    </string-array>
+    <!-- fragment string -->
+    <string name="hello_home_fragment">Hello home fragment</string>
+    <string name="hello_library_fragment">Library</string>
+    <string name="hello_cart_fragment">My Cart</string>
+</resources>

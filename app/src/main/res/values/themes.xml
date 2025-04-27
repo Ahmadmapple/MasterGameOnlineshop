@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MasterGameOnlineShop" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+    <style name="SearchViewEditText" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">#FFFFFF</item> <!-- White input text -->
+        <item name="android:textColorHint">#FFFFFF</item> <!-- White hint -->
+    </style>
+
+    <style name="Theme.MasterGameOnlineShop" parent="Base.Theme.MasterGameOnlineShop" />
+</resources>

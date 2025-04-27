@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/bottomNavHome"
+        android:icon="@drawable/baseline_home_24"
+        tools:ignore="HardcodedText" />
+    <item android:title="Library"
+        android:id="@+id/bottomNavLibrary"
+        android:icon="@drawable/baseline_games_24"
+        tools:ignore="HardcodedText"/>
+    <item android:title="My Cart"
+        android:id="@+id/bottomNavMyCart"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        tools:ignore="HardcodedText"/>
+</menu>

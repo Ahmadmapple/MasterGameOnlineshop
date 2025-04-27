@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerPage"
+    android:background="@color/charcoalBlack">
+
+    <TextView
+        android:id="@+id/register_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/username"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/register_text_view" />
+
+    <EditText
+        android:id="@+id/editTextTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="12dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:autofillHints="Email"
+        android:hint="Enter Your Username"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:maxWidth="488dp"
+        android:textColorHint="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username_text"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/email"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextUsername" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="12dp"
+        android:layout_height="50dp"
+        android:maxWidth="488dp"
+        android:layout_marginStart="12dp"
+        android:autofillHints="Email"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:textColorHint="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_text"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="12dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:autofillHints="Email"
+        android:maxWidth="488dp"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:textColorHint="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password_text"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/confirm_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/confirm_password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="12dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="12dp"
+        android:maxWidth="488dp"
+        android:autofillHints="Email"
+        android:hint="Confirm Your Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColorHint="@color/light_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/confirm_password_text"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/confirm_password_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/darker_red"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextConfirmPassword"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/yellow"
+        android:contentDescription="Register buttons"
+        android:ems="8"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextConfirmPassword"
+        tools:ignore="hardCodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

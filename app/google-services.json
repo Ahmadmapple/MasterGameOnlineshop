@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573334481416",
+    "project_id": "mastergameonlineshop",
+    "storage_bucket": "mastergameonlineshop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573334481416:android:23dbcf6bb98e3cf7ee3fbd",
+        "android_client_info": {
+          "package_name": "com.example.mastergameonlineshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU0zWe4c3wLntRJEhy9j-QUzhcmt6EsEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
