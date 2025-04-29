@@ -1,7 +1,7 @@
 # MasterGameOnlineshop
 Repo ini dibuat untuk menyimpan projek akhir bootcamp mobile development
 
-Anggota: Achmad Caesar Ramadhan (241401011)
+Anggota: Achmad Caesar Ramadhan (241401011)  
 Nama Aplikasi Android: Master Game Onlineshop
 
 Deskripsi:
